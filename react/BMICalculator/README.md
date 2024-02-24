@@ -31,3 +31,7 @@ A user can add new to-do or delete it.
 ```
 
 - It is not available to send props via react router dom thus i used a wrapper of the already availabile page, check app.jsx for that
+
+- Image:
+- ![proj_bmi](https://github.com/Can-tech/webdev-frontend/assets/61757250/d776137e-14c1-4f67-9ac8-76169ba5c3ba)
+
