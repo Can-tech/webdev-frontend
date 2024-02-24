@@ -3,8 +3,12 @@
 A user can add new to-do or delete it.
 
 - Vite: npm create vite@latest, React-Javascript
-- Styled-Compoents
 
+## Packeges Used: 
+- react-confetti-explosion: Used for the confetti effect if the weight result is in the normal category.
+- react-router-dom: Used for routing operations (displaying the diet on a different route).
+- styled-components: Used for styling.
+ 
 ## Learned & Worked On:
 
 - I installed an extension called: 'vscode-styled-components' this helps with intelliSense of the css insinde the literals
