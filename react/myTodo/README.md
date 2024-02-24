@@ -1,8 +1,21 @@
-# React + Vite
+## To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A user can add new to-do or delete it.
 
-Currently, two official plugins are available:
+- Vite: npm create vite@latest, React-Javascript
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Learned:
+
+- setState((prev)=>{}) can take a callback functon in it and we can use it to access the previous state.
+- we can use localStorge inside the useEffect and useState:
+
+```
+  const [todoList, setTodoList] = useState(() => {
+    const items = localStorage.getItem("todos");
+    if (!items) return [];
+    return JSON.parse(items);
+  });
+  useEffect(() => {
+    localStorage.setItem("todos", JSON.stringify(todoList));
+  }, [todoList]);
+```
