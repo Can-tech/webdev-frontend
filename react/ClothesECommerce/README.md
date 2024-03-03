@@ -6,8 +6,8 @@ E-Commerce React frontend project. Products are listed from the "https://mockapi
 
 ## Packeges Used:
 
-- @tanstack/react-query: Used for the confetti effect if the weight result is in the normal category.
-- react-router-dom: Used for routing operations (displaying the diet on a different route).
+- @tanstack/react-query: Used for data fetching, caching, synchronization and updates.
+- react-router-dom: Used for routing operations (displaying different components based on the route).
 - styled-components: Used for styling.
 
 ## Learned & Worked On:
