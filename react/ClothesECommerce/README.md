@@ -1,13 +1,13 @@
-## BMI Calculator App
+## Cloth ECommerce Store Frontend
 
-A user can add new to-do or delete it.
+E-Commerce React frontend project. Products are listed from the "https://mockapi.io/". A user can add a product to the cart or liked products. A user can login and logout.(There is no real login operations, it is simulated by using localStorage API)
 
 - Vite: npm create vite@latest, React-Javascript
 
 ## Packeges Used:
 
-- react-confetti-explosion: Used for the confetti effect if the weight result is in the normal category.
-- react-router-dom: Used for routing operations (displaying the diet on a different route).
+- @tanstack/react-query: Used for data fetching, caching, synchronization and updates.
+- react-router-dom: Used for routing operations (displaying different components based on the route).
 - styled-components: Used for styling.
 
 ## Learned & Worked On:
@@ -75,8 +75,22 @@ A user can add new to-do or delete it.
   setOverallSum(sum);
   }, [datas]);
   ```
+- styled-components doesn't have direct access to the JavaScript variables in its scope we need to pass it as a prop to the styled component.
+
+  ```
+  import searchImg from "../../assets/searchengine.svg";
+
+  const SearchBar = styled.input`
+  ...
+    background-image: url(${props => props.searchImg});
+  ...
+  `
+
+  <SearchBar searchImg={searchImg} />
+  ```
 
 ## ToDo
 
 - Filter by Search
 - Filter by Selection
+- Pagination simulation
