@@ -4,6 +4,9 @@ E-Commerce React frontend project. Products are listed from the "https://mockapi
 
 - Vite: npm create vite@latest, React-Javascript
 
+![1](https://github.com/Can-tech/webdev-frontend/assets/61757250/470bc7bd-0073-45e8-9bc9-bc5abcdaa92e)
+
+
 ## Packeges Used:
 
 - @tanstack/react-query: Used for data fetching, caching, synchronization and updates.
